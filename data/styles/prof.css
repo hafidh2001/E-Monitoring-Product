@@ -1,0 +1,132 @@
+body {
+    background:  #172258;
+}
+
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+    
+}
+.nav-brand .img{
+    height: 50px;
+}
+.active{
+ color:#720B87;
+}
+.nav-link,  .nav-brand {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(20, 25, 26, 0.7);
+}
+.nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+}
+
+
+.embed-responsive img {
+    width: 250px;
+    height: 279px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+/* footer */
+#contact {
+    background: #051334;
+    padding: 50px 0px 50px 0px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+
+}
+
+.footer-section h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    width: 100%;
+    line-height: 50px;
+}
+.footer-section p{
+  color: #fff;
+}
+.class-row-footer p {
+    color: #fff;
+}
+
+
+
+@media (min-width: 992px) {
+    .nav-link,  .nav-brand {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(20, 25, 26, 0.7);
+    }
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid blue;
+        width: 50%;
+        margin:auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+}
